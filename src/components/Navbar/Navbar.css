@@ -1,0 +1,88 @@
+/* General navbar styling */
+
+.navbar-main{
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    height: 75px;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background: #171717;
+    margin: 30px 0;
+}
+
+/* Left and right menu common styles */
+.nav-menu-left, .nav-menu-right {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: Lufga;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 0;
+    background: #171717;
+    color: white;
+}
+
+.nav-menu-left {
+    border-radius: 50px 0 0 50px;
+}
+
+.nav-menu-right {
+    border-radius: 0 50px 50px 0;
+}
+
+/* Common nav item styles */
+.nav-item {
+    height: 66px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, height 0.3s, border-radius 0.3s;
+}
+
+/* Logo styles */
+.nav-logo {
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    transition: background 0.3s, width 0.3s;
+}
+
+.nav-logo img {
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+}
+
+/* Hover effects */
+.nav-menu-left .nav-item:hover, 
+.nav-menu-right .nav-item:hover {
+    height: 40px;
+    border-radius: 50px;
+    background: #645f5f;
+}
+
+/* Logo hover effects */
+.nav-logo:hover {
+    background: transparent;
+}
+
+.nav-logo p.nav-name-full {
+    display: none;
+}
+
+.nav-logo:hover p.nav-name-prev {
+    display: none;
+}
+
+.nav-logo:hover p.nav-name-full {
+    display: block;
+}
