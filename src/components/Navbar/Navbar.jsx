@@ -19,9 +19,9 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className="nav-menu-right">
-                <li className="nav-item">Home</li>
-                <li className="nav-item">About</li>
-                <li className="nav-item">Service</li>
+                <li className="nav-item">Resume</li>
+                <li className="nav-item">Project</li>
+                <li className="nav-item">Contact</li>
             </ul>
 
         </div>
