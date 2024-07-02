@@ -3,6 +3,7 @@
 .navbar-main{
     display: flex;
     justify-content: center;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 .navbar {
     height: 75px;
@@ -19,12 +20,13 @@
     display: flex;
     align-items: center;
     list-style: none;
-    font-family: Lufga;
     font-size: 20px;
     text-align: center;
     margin: 30px 0;
     background: #171717;
     color: white;
+    justify-content: center;
+    padding: 0; 
 }
 
 .nav-menu-left {
