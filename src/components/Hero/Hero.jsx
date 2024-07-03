@@ -24,7 +24,7 @@ const Hero = () => {
                 <img src={vector_img_down} alt="" />
             </div>
         </div>
-        <div className={`main-content-img ${isHovered ? 'show' : ''}`}>
+        <div className={'main-content-img' }>
             <div className={`main-left ${isHovered ? 'show' : ''}`}>
                 <img src={quotes} alt="" />
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, cumque nobis? Praesentium illum ratione officiis quae voluptatum itaque obcaecati!</p>

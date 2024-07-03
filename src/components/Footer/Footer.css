@@ -67,6 +67,7 @@
   .hire-me-img-prev, .hire-me-img-after{
     width: 35px;
   }
+  
   .social-icon {
     display: flex;
     gap: 10px;
@@ -155,7 +156,8 @@
     border: none;
     margin-left: 20px;
   }
-  
+
+
   .footer-email-btn img {
     width: 40px;
     height: 40px;
