@@ -44,15 +44,24 @@ span {
     color: white;
 }
     
+.about-img {
+    position: relative;
+}
 
-.about-img .about-img-after{
+.about-img .about-img-after {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 90%;
+    top: -60px;
+    margin-left: 10px;
     display: none;
 }
 
-.about-img:hover .about-img-prev{
-    display: none;
-}
 
 .about-img:hover .about-img-after{
+    width: 100%;
     display: block;
+    top: -60px;
+    margin-left: -15px;
 }

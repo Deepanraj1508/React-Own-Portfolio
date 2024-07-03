@@ -8,8 +8,15 @@
     color: white;
   }
   
-  .footer-container-top, .footer-container-bottom {
+  .footer-container-top{
     margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-container-bottom {
+    margin: 10px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +90,7 @@
     grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
     justify-items: center;
     align-items: start;
-    margin: 50px 10px;
+    margin: 30px 10px;
   }
   
   h3 {
@@ -166,3 +173,7 @@
     background: #FD853A;
   }
   
+
+  .footer-email h3{
+    margin-left: -70px;
+  }

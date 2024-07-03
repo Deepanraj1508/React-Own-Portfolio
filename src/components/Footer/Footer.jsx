@@ -16,7 +16,7 @@ const Footer = () => {
     <div className='footer'>
       <div className='footer-container-top'>
         <h1>
-          Lets Connect there
+          Let's connect there
         </h1>
         <button className='hire-me'>Hire me
           <img className='hire-me-img-prev' src={up_arrow} alt="" />
