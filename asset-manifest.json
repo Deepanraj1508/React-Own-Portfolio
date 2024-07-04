@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Deepanraj1508/React-Own-Portfolio/static/css/main.d03129f4.css",
-    "main.js": "/Deepanraj1508/React-Own-Portfolio/static/js/main.b70d4f17.js",
-    "static/js/453.1407b060.chunk.js": "/Deepanraj1508/React-Own-Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/main-after.png": "/Deepanraj1508/React-Own-Portfolio/static/media/main-after.67f428cc824369494e14.png",
-    "static/media/main-prev.png": "/Deepanraj1508/React-Own-Portfolio/static/media/main-prev.fb3954f4fa3ba21984a8.png",
-    "static/media/img-prev.png": "/Deepanraj1508/React-Own-Portfolio/static/media/img-prev.bdefcb2d1237619cb513.png",
-    "static/media/insta.png": "/Deepanraj1508/React-Own-Portfolio/static/media/insta.8e408da00539cdef4629.png",
-    "static/media/facebook.png": "/Deepanraj1508/React-Own-Portfolio/static/media/facebook.8f05ca00779f203e2bf8.png",
-    "static/media/image-after.png": "/Deepanraj1508/React-Own-Portfolio/static/media/image-after.fd0049aca21c44bdfcd9.png",
-    "static/media/youtube.png": "/Deepanraj1508/React-Own-Portfolio/static/media/youtube.3340f665ebaed2f1a3b0.png",
-    "static/media/whatsapp.png": "/Deepanraj1508/React-Own-Portfolio/static/media/whatsapp.25fb6015830385783ea1.png",
-    "static/media/twitter.png": "/Deepanraj1508/React-Own-Portfolio/static/media/twitter.c1e1bac009d5cafc2e5b.png",
-    "static/media/linkedin.png": "/Deepanraj1508/React-Own-Portfolio/static/media/linkedin.45394e1bbe628643df3d.png",
-    "index.html": "/Deepanraj1508/React-Own-Portfolio/index.html",
-    "main.d03129f4.css.map": "/Deepanraj1508/React-Own-Portfolio/static/css/main.d03129f4.css.map",
-    "main.b70d4f17.js.map": "/Deepanraj1508/React-Own-Portfolio/static/js/main.b70d4f17.js.map",
-    "453.1407b060.chunk.js.map": "/Deepanraj1508/React-Own-Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/React-Own-Portfolio/static/css/main.d03129f4.css",
+    "main.js": "/React-Own-Portfolio/static/js/main.047ed8fc.js",
+    "static/js/453.1407b060.chunk.js": "/React-Own-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/main-after.png": "/React-Own-Portfolio/static/media/main-after.67f428cc824369494e14.png",
+    "static/media/main-prev.png": "/React-Own-Portfolio/static/media/main-prev.fb3954f4fa3ba21984a8.png",
+    "static/media/img-prev.png": "/React-Own-Portfolio/static/media/img-prev.bdefcb2d1237619cb513.png",
+    "static/media/insta.png": "/React-Own-Portfolio/static/media/insta.8e408da00539cdef4629.png",
+    "static/media/facebook.png": "/React-Own-Portfolio/static/media/facebook.8f05ca00779f203e2bf8.png",
+    "static/media/image-after.png": "/React-Own-Portfolio/static/media/image-after.fd0049aca21c44bdfcd9.png",
+    "static/media/youtube.png": "/React-Own-Portfolio/static/media/youtube.3340f665ebaed2f1a3b0.png",
+    "static/media/whatsapp.png": "/React-Own-Portfolio/static/media/whatsapp.25fb6015830385783ea1.png",
+    "static/media/twitter.png": "/React-Own-Portfolio/static/media/twitter.c1e1bac009d5cafc2e5b.png",
+    "static/media/linkedin.png": "/React-Own-Portfolio/static/media/linkedin.45394e1bbe628643df3d.png",
+    "index.html": "/React-Own-Portfolio/index.html",
+    "main.d03129f4.css.map": "/React-Own-Portfolio/static/css/main.d03129f4.css.map",
+    "main.047ed8fc.js.map": "/React-Own-Portfolio/static/js/main.047ed8fc.js.map",
+    "453.1407b060.chunk.js.map": "/React-Own-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d03129f4.css",
-    "static/js/main.b70d4f17.js"
+    "static/js/main.047ed8fc.js"
   ]
 }
