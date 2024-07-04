@@ -1,6 +1,7 @@
 .footer {
     /* width: 1440px;
     height: 685px; */
+    width: 89%;
     padding: 5px 71px;
     border-radius: 24px 24px 0 0;
     font-family: "Hanken Grotesk", sans-serif;
@@ -87,7 +88,7 @@
   
   .footer-container-middle {
     display: grid;
-    grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
+    grid-template-columns: 1.5fr 0.5fr 0.5fr 1fr;
     justify-items: center;
     align-items: start;
     margin: 30px 10px;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Hero.css'
+import '../Responsive/Responsive.css'
 import vector_img_up from '../Assets/hero/Vector-1.png'
 import vector_img_down from '../Assets/hero/Vector-2.png'
 import quotes from '../Assets/hero/quote-up.png'
@@ -37,8 +38,8 @@ const Hero = () => {
                   onMouseLeave={() => setIsHovered(false)}
                 />
                 <div className="main-img-btn">
-                    <a className='btn-arrow' href="">Portfolio <img src={up_arrow} alt="" /></a>
-                    <a className='btn-arrow' href="">Hire me <img src={up_arrow} alt="" /></a>
+                    <a className='btn-arrow' href={'/'}>Portfolio <img src={up_arrow} alt="" /></a>
+                    <a className='btn-arrow' href={'/'}>Hire me <img src={up_arrow} alt="" /></a>
                 </div>
             </div>
             <div className={`main-right ${isHovered ? 'show' : ''}`}>

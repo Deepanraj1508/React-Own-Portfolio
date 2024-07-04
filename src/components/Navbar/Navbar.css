@@ -15,6 +15,9 @@
     margin: 20px 0;
 }
 
+.nav-item.nav-logo {
+    width: 80px;
+}
 /* Left and right menu common styles */
 .nav-menu-left, .nav-menu-right {
     display: flex;
@@ -86,4 +89,9 @@
 
 .nav-logo:hover p.nav-name-full {
     display: block;
+}
+
+
+.mobile-menu-icon img{
+    display: none;
 }

@@ -7,7 +7,7 @@ import ContactUs from './components/ContactUs/ContactUs';
 
 function App() {
   return (
-    <div style={{margin: '11px'}}>
+    <div style={{margin: '0px 0px'}}>
       <Navbar/>
       <Hero/>
       <AboutPage/>

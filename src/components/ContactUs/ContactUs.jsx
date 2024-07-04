@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactUs.css'
+import '../Responsive/Responsive.css'
 import email_icon from '../Assets/sms.png'
 
 const ContactUs = () => {

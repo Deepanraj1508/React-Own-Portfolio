@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutPage.css'
+import '../Responsive/Responsive.css'
 import img_prev from '../Assets/about/img-prev.png'
 import img_after from '../Assets/about/image-after.png'
 

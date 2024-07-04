@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import '../Responsive/Responsive.css'
 import right_arrow from '../Assets/footer/right_arrow.png'
 import up_arrow from '../Assets/footer/up right.png'
 import filled from '../Assets/footer/filled.png'
