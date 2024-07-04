@@ -1,13 +1,14 @@
-import React, { useState } from 'react'
-import './Hero.css'
-import '../Responsive/Responsive.css'
-import vector_img_up from '../Assets/hero/Vector-1.png'
-import vector_img_down from '../Assets/hero/Vector-2.png'
-import quotes from '../Assets/hero/quote-up.png'
-import up_arrow from '../Assets/hero/up right.png'
-import main_prev from '../Assets/hero/main-prev.png'
-import main_after from '../Assets/hero/main-after.png'
-import star from '../Assets/hero/Star.png'
+import React, { useState } from 'react';
+import './Hero.css';
+import '../Responsive/Responsive.css';
+import vector_img_up from '../Assets/hero/Vector-1.png';
+import vector_img_down from '../Assets/hero/Vector-2.png';
+import quotes from '../Assets/hero/quote-up.png';
+import up_arrow from '../Assets/hero/up right.png';
+import main_back from '../Assets/hero/back.png';
+import main_front from '../Assets/hero/front.png';
+import main_middle from '../Assets/hero/middle-.png';
+import star from '../Assets/hero/Star.png';
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -21,22 +22,27 @@ const Hero = () => {
             </div>
             <div className="main-data">
                 <h1>Hi, I'm <span>Deepanraj,</span></h1>
-                <h1>Backend Developer</h1>
+                <h1>Full Stack Developer</h1>
                 <img src={vector_img_down} alt="" />
             </div>
         </div>
-        <div className={'main-content-img' }>
+        <div className='main-content-img'>
             <div className={`main-left ${isHovered ? 'show' : ''}`}>
                 <img src={quotes} alt="" />
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, cumque nobis? Praesentium illum ratione officiis quae voluptatum itaque obcaecati!</p>
             </div>
-            <div className="main-middle">
+            <div 
+              className="main-middle" 
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+                <img src={main_back} alt="Back" className="main-back" />
                 <img 
-                  src={isHovered ? main_after : main_prev} 
-                  alt="" 
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)}
+                  src={main_middle} 
+                  alt="Middle" 
+                  className={`main-middle-img ${isHovered ? 'show' : ''}`}
                 />
+                <img src={main_front} alt="Front" className="main-front" />
                 <div className="main-img-btn">
                     <a className='btn-arrow' href={'/'}>Portfolio <img src={up_arrow} alt="" /></a>
                     <a className='btn-arrow' href={'/'}>Hire me <img src={up_arrow} alt="" /></a>
@@ -58,4 +64,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
