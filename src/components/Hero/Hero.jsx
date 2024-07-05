@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Element } from 'react-scroll';
 import './Hero.css';
 import '../Responsive/Responsive.css';
 import vector_img_up from '../Assets/hero/Vector-1.png';
@@ -9,11 +10,13 @@ import main_back from '../Assets/hero/back.png';
 import main_front from '../Assets/hero/front.png';
 import main_middle from '../Assets/hero/middle-.png';
 import star from '../Assets/hero/Star.png';
+import resume from '../Assets/Deepanraj.pdf';
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
+    <Element name="home">
     <div className='hero-page'>
         <div className={`main-content ${isHovered ? 'hide' : ''}`}>
             <div className="main-btn">
@@ -45,7 +48,7 @@ const Hero = () => {
                 <img src={main_front} alt="Front" className="main-front" />
                 <div className="main-img-btn">
                     <a className='btn-arrow' href={'/'}>Portfolio <img src={up_arrow} alt="" /></a>
-                    <a className='btn-arrow' href={'/'}>Hire me <img src={up_arrow} alt="" /></a>
+                    <a className='btn-arrow' href={resume} target="_blank" rel="noopener noreferrer">Resume <img src={up_arrow} alt="" /></a>
                 </div>
             </div>
             <div className={`main-right ${isHovered ? 'show' : ''}`}>
@@ -61,6 +64,7 @@ const Hero = () => {
             </div>
         </div>
     </div>
+    </Element>
   )
 }
 

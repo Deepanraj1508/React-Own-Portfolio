@@ -95,3 +95,8 @@
 .mobile-menu-icon img{
     display: none;
 }
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}

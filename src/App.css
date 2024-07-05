@@ -1,6 +1,41 @@
 .App {
   text-align: center;
 }
+body{
+  scroll-behavior: smooth; 
+}
+
+.react-scroll-element {
+  scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+
+.scroll-to-top.show {
+  opacity: 1;
+}
+
+.scroll-to-top:hover {
+  background-color: darkorange;
+}
+
 
 .App-logo {
   height: 40vmin;

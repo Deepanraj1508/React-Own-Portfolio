@@ -1,10 +1,13 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 import './ContactUs.css'
 import '../Responsive/Responsive.css'
 import email_icon from '../Assets/sms.png'
 
 const ContactUs = () => {
     return (
+
+        <Element name="contact">
         <div className='contactus'>
             <div className="contact-top">
                 <div className="contect-text">
@@ -19,6 +22,7 @@ const ContactUs = () => {
 
             </div>
         </div>
+        </Element>
     );
 };
 

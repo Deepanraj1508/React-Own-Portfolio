@@ -187,9 +187,11 @@
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
   
-  .main-back {
-    z-index: 1;
-  }
+  .main-front {
+    position: absolute;
+    z-index: 3;
+    bottom: -262px;
+}
   
   .main-middle-img {
     z-index: 2;

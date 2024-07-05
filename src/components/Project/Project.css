@@ -1,8 +1,8 @@
-.Project img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 3;
+.Project img {
     border-radius: 60px;
-    opacity: 0.9;
+    height: 100%;
+    opacity: .9;
+    position: absolute;
+    width: 100%;
+    bottom: -880px;
 }
