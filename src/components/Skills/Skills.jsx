@@ -12,7 +12,13 @@ import mongo from '../Assets/skills/mongo-db.png'
 import git from '../Assets/skills/git.png'
 import github from '../Assets/skills/github.png'
 import bootstrap from '../Assets/skills/bootstrap.png'
-import swagger from '../Assets/skills/swagger.png'
+import swagger from '../Assets/skills/swagger-.jpg'
+import django from '../Assets/skills/django.png'
+import responsive from '../Assets/skills/res.png'
+import api from '../Assets/skills/api.png'
+import go from '../Assets/skills/go.png'
+import flask from '../Assets/skills/flask.png'
+import auth from '../Assets/skills/auth.png'
 
 
 
@@ -37,19 +43,54 @@ const Skills = () => {
                     <h4>Java Script</h4>
                 </div>
                 <div className="skills">
-                    <img src={python} alt="" />
-                    <h4>Python</h4>
-                </div>
-                <div className="skills">
                     <img src={react} alt="" />
                     <h4>React</h4>
                 </div>
                 <div className="skills">
-                    <img src={mysql} alt="" />
-                    <h4>My SQL</h4>
+                    <img src={bootstrap} alt="" />
+                    <h4>Bootstrap</h4>
+                </div>
+                <div className="skills">
+                    <img src={responsive} alt="" />
+                    <h4>Responsive</h4>
                 </div>
             </div>
             <div className='skills_container'>
+                <div className="skills">
+                    <img src={python} alt="" />
+                    <h4>Python</h4>
+                </div>
+                <div className="skills">
+                    <img src={django} alt="" />
+                    <h4>Django</h4>
+                </div>
+                <div className="skills">
+                    <img src={flask} alt="" />
+                    <h4>Flask</h4>
+                </div>
+                <div className="skills">
+                    <img src={swagger} alt="" />
+                    <h4>Swagger</h4>
+                </div>
+                <div className="skills">
+                    <img src={api} alt="" />
+                    <h4>Rest API</h4>
+                </div>
+                <div className="skills">
+                    <img src={go} alt="" />
+                    <h4>Go</h4>
+                </div>
+            </div>
+            <div className='skills_container'>
+            <div className="skills">
+                    <img src={auth} alt="" />
+                    <h4>Authentication</h4>
+                </div>
+
+                <div className="skills">
+                    <img src={mysql} alt="" />
+                    <h4>My SQL</h4>
+                </div>
 
                 <div className="skills">
                     <img src={sqlite} alt="" />
@@ -66,17 +107,6 @@ const Skills = () => {
                 <div className="skills">
                     <img src={git} alt="" />
                     <h4>Git</h4>
-                </div>
-                <div className="skills">
-                    <img src={bootstrap} alt="" />
-                    <h4>Bootstrap</h4>
-                </div>
-            </div>
-            <div className='skills_container'>
-
-                <div className="skills">
-                    <img src={swagger} alt="" />
-                    <h4>Swagger</h4>
                 </div>
 
             </div>
