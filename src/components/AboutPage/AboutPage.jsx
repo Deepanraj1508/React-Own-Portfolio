@@ -14,11 +14,8 @@ const AboutPage = () => {
           <img className="about-img-after" src={img_after} alt="After" />
         </div>
         <div className="about-content">
-          <h1>About <span>Us</span></h1>
+          <h1>About <span>Me</span></h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quasi sed vel esse voluptate, vitae voluptates architecto aperiam tempore assumenda cupiditate dolor quam inventore accusamus commodi debitis nobis. Porro, aliquid!</p>
-          <div className="about-btn">
-            <button>Read More</button>
-          </div>
         </div>
       </div>
     </Element>

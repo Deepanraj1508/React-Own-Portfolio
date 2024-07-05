@@ -1,8 +1,3 @@
-.Project img {
-    border-radius: 60px;
-    height: 100%;
-    opacity: .9;
-    position: absolute;
-    width: 100%;
-    bottom: -880px;
+.project h1{
+    margin: 0px;
 }

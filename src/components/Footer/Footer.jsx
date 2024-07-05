@@ -3,7 +3,6 @@ import './Footer.css'
 import '../Responsive/Responsive.css'
 import right_arrow from '../Assets/footer/right_arrow.png'
 import up_arrow from '../Assets/footer/up right.png'
-import filled from '../Assets/footer/filled.png'
 import logo from '../Assets/logo.png'
 import instagram from '../Assets/footer/social_icons/insta.png'
 import facebook from '../Assets/footer/social_icons/facebook.png'
@@ -19,7 +18,7 @@ const Footer = () => {
         <h1>
           Let's connect there
         </h1>
-        <button className='hire-me'>Hire me
+        <button className='hire-me'>Resume
           <img className='hire-me-img-prev' src={up_arrow} alt="" />
           <img className='hire-me-img-after' src={right_arrow} alt="" />
         </button>
@@ -56,10 +55,9 @@ const Footer = () => {
         <ul className='footer-navigation'>
         <h3>Navigation</h3>
           <li>Home</li>
-          <li>About Us</li>
-          <li>Service</li>
-          <li>Resume</li>
+          <li>Skills</li>
           <li>Project</li>
+          <li>About Me</li>
         </ul>
         <ul className='footer-contact'>
         <h3>Contact</h3>
@@ -67,7 +65,7 @@ const Footer = () => {
           <li>Deepan@gmail.com</li>
           <li>Portfolio-dr.com</li>
         </ul>
-        <div className='footer-email'>
+        {/* <div className='footer-email'>
 
           <h3>Get the latest information</h3>
           <div className='footer-email-btn'>
@@ -75,7 +73,7 @@ const Footer = () => {
             <img src={filled} height={24} width={24} alt="" />
           </div>
 
-        </div>
+        </div> */}
 
       </div>
       <hr />

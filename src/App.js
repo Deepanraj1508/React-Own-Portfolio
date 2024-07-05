@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
-import AboutPage from './components/AboutPage/AboutPage';
-import ContactUs from './components/ContactUs/ContactUs';
-import Project from './components/Project/Project';
 import { animateScroll as scroll } from 'react-scroll';
+import Main from './pages/Main';
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
@@ -32,12 +30,13 @@ function App() {
 
   return (
     <div style={{ margin: '0px 0px' }}>
-      <Navbar />
-      <Hero />
-      <Project />
-      <AboutPage />
-      <ContactUs />
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+       <Routes>
+        <Route path='React-Own-Portfolio/' element={<Main/>}/>
+       </Routes>
+       <Footer/>
+      </BrowserRouter>
       <div className={`scroll-to-top ${showScroll ? 'show' : ''}`} onClick={scrollTop}>
         &#9650;
       </div>
