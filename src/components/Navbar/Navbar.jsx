@@ -56,7 +56,15 @@ const Navbar = () => {
                     >
                         <li className="nav-item">Skills</li>
                     </Link>
-                    <li className="nav-item">Project</li>
+                    <Link 
+                        to="project" 
+                        smooth={true} 
+                        duration={500} 
+                        className={activeLink === 'project' ? 'active' : ''} 
+                        onSetActive={handleSetActive}
+                    >
+                        <li className="nav-item">Project</li>
+                    </Link>
                 </ul>
                 <div className={`nav-item nav-logo ${menuVisible ? 'column' : 'row'}`}>
                     <img src={logo} alt="logo" />

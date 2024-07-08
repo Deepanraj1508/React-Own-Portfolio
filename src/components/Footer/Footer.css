@@ -178,3 +178,8 @@
   .footer-email h3{
     margin-left: -70px;
   }
+
+  .footer-contact-link{
+    text-decoration: none;
+    color: white;
+  }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 import './Footer.css'
 import '../Responsive/Responsive.css'
 import right_arrow from '../Assets/footer/right_arrow.png'
@@ -51,20 +52,53 @@ const Footer = () => {
 
 
         </div>
-        
+
         <ul className='footer-navigation'>
-        <h3>Navigation</h3>
-          <li>Home</li>
-          <li>Skills</li>
-          <li>Project</li>
-          <li>About Me</li>
+          <h3>Navigation</h3>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+          >
+            <li>Home</li>
+          </Link>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+          >
+            <li>Skills</li>
+          </Link>
+          <Link
+            to="project"
+            smooth={true}
+            duration={500}
+          >
+            <li>Project</li>
+          </Link>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+          >
+            <li>About Me</li>
+          </Link>
         </ul>
         <ul className='footer-contact'>
-        <h3>Contact</h3>
-          <li>+91 7708486647</li>
-          <li>Deepan@gmail.com</li>
-          <li>Portfolio-dr.com</li>
+          <h3>Contact</h3>
+          <li>
+            <a className='footer-contact-link' href="tel:+917708486647">+91 7708486647</a>
+          </li>
+          <li>
+            <a className='footer-contact-link' href="mailto:deepanraj.k15@gmail.com">deepanraj.k15@gmail.com</a>
+          </li>
+          <li>
+            <a className='footer-contact-link' href="https://React-Own-Portfolio.com" target="_blank" rel="noopener noreferrer">
+              React-Own-Portfolio.com
+            </a>
+          </li>
         </ul>
+
         {/* <div className='footer-email'>
 
           <h3>Get the latest information</h3>

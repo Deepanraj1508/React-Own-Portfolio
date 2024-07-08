@@ -13,9 +13,9 @@ body{
   position: fixed;
   bottom: 50px;
   right: 50px;
-  width: 40px;
-  height: 40px;
-  background-color: orange;
+  width: 60px;
+  height: 60px;
+  background-color: #FD853A;
   color: white;
   text-align: center;
   line-height: 40px;
@@ -30,10 +30,13 @@ body{
 
 .scroll-to-top.show {
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scroll-to-top:hover {
-  background-color: darkorange;
+  background-color: #e98e56;
 }
 
 
