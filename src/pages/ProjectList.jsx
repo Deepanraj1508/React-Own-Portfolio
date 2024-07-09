@@ -10,7 +10,7 @@ const ProjectList = ({ projects }) => {
                 <div key={project.id} className='project-list'>
                     <div className="project-container">
                         <div className="project-title">
-                            <h3>{project.projectName}</h3>
+                            <h2>{project.projectName}</h2>
                             <p>{project.context}</p>
                         </div>
                         <div className="project-btn">

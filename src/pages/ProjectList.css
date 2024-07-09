@@ -1,11 +1,20 @@
-.project-list{
+.project-list {
     margin-bottom: 30px;
-}
-.project-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+
+}
+
+.project-container {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 40px;
+    border: 1px solid black;
+
 }
 
 .project-btn {
@@ -23,4 +32,6 @@
     border: none;
     background: #cc6c30;
     color: white;
+    font-size: 16px;
+    font-weight: 600;
 }

@@ -1,102 +1,145 @@
 [
     {
         "id": 1,
-        "projectName" : "Portfolio",
+        "projectName": "E-commerce Website Automation",
         "role": "Automation Tester",
-        "context": "Using Cucumber framework, Selenium, and Java for automation testing.",
-        "duration": "June 2024 - Present",
+        "context": "Developed automated test scripts using Selenium and Java for a major e-commerce platform.",
+        "ProjectDescription": "Automated end-to-end testing of user journeys on the e-commerce platform.",
+        "domain": "Retail",
+        "duration": "January 2023 - June 2023",
         "individualContribution": {
-            "videoLink": "https://www.example.com/video",
-            "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiles.worldwildlife.org%2Fwwfcmsprod%2Fimages%2FTiger_resting_Bandhavgarh_National_Park_India%2Fhero_small%2F6aofsvaglm_Medium_WW226365.jpg&tbnid=DkxTrO5ibg3cjM&vet=12ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Ftiger&docid=V7d3lFgXfu8H2M&w=640&h=480&itg=1&q=tiger&ved=2ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp",
+            "videoLink": "https://www.example.com/ecommerce-video",
+            "ScreenShots": [
+                "https://www.example.com/ecommerce-ss1.png",
+                "https://www.example.com/ecommerce-ss2.png"
+            ],
             "skills": [
                 {
                     "name": "Selenium",
-                    "image": ""
-                },
-                {
-                    "name": "Cucumber",
-                    "image": ""
+                    "image": "https://www.example.com/selenium.png"
                 },
                 {
                     "name": "Java",
-                    "image": ""
+                    "image": "https://www.example.com/java.png"
                 }
             ]
-        }
+        },
+        "Sitelink": "https://www.example-ecommerce.com"
     },
     {
         "id": 2,
-        "projectName" : "Portfolio",
+        "projectName": "Banking App Automation",
         "role": "Automation Tester",
-        "context": "Using Cucumber framework, Selenium, and Java for automation testing.",
-        "duration": "June 2024 - Present",
+        "context": "Utilized Cucumber framework for behavior-driven development in the banking app.",
+        "ProjectDescription": "Developed and maintained automated test suites for various banking functionalities.",
+        "domain": "Finance",
+        "duration": "July 2023 - December 2023",
         "individualContribution": {
-            "videoLink": "https://www.example.com/video",
-            "images": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1024px-Walking_tiger_female.jpg",
+            "videoLink": "https://www.example.com/banking-video",
+            "ScreenShots": [
+                "https://www.example.com/banking-ss1.png",
+                "https://www.example.com/banking-ss2.png"
+            ],
             "skills": [
                 {
-                    "name": "Selenium",
-                    "image": ""
-                },
-                {
                     "name": "Cucumber",
-                    "image": ""
+                    "image": "https://www.example.com/cucumber.png"
                 },
                 {
-                    "name": "Java",
-                    "image": ""
+                    "name": "Selenium",
+                    "image": "https://www.example.com/selenium.png"
                 }
             ]
-        }
+        },
+        "Sitelink": "https://www.example-banking.com"
     },
     {
         "id": 3,
-        "projectName" : "Portfolio",
+        "projectName": "Healthcare Management System",
         "role": "Automation Tester",
-        "context": "Using Cucumber framework, Selenium, and Java for automation testing.",
-        "duration": "June 2024 - Present",
+        "context": "Implemented automated tests using Selenium, Cucumber, and Java for a healthcare management system.",
+        "ProjectDescription": "Focused on automating patient management and appointment scheduling functionalities.",
+        "domain": "Healthcare",
+        "duration": "February 2024 - May 2024",
         "individualContribution": {
-            "videoLink": "https://www.example.com/video",
-            "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiles.worldwildlife.org%2Fwwfcmsprod%2Fimages%2FTiger_resting_Bandhavgarh_National_Park_India%2Fhero_small%2F6aofsvaglm_Medium_WW226365.jpg&tbnid=DkxTrO5ibg3cjM&vet=12ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Ftiger&docid=V7d3lFgXfu8H2M&w=640&h=480&itg=1&q=tiger&ved=2ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp",
+            "videoLink": "https://www.example.com/healthcare-video",
+            "ScreenShots": [
+                "https://www.example.com/healthcare-ss1.png",
+                "https://www.example.com/healthcare-ss2.png"
+            ],
             "skills": [
                 {
                     "name": "Selenium",
-                    "image": "https://drive.google.com/file/d/1ci0ySE02Qn_6aj7yvYLd6ILjgqLX0YRZ/view?usp=sharing"
+                    "image": "https://www.example.com/selenium.png"
                 },
                 {
                     "name": "Cucumber",
-                    "image": "https://drive.google.com/file/d/1ci0ySE02Qn_6aj7yvYLd6ILjgqLX0YRZ/view?usp=sharing"
+                    "image": "https://www.example.com/cucumber.png"
                 },
                 {
                     "name": "Java",
-                    "image": "https://drive.google.com/file/d/1ci0ySE02Qn_6aj7yvYLd6ILjgqLX0YRZ/view?usp=sharing"
+                    "image": "https://www.example.com/java.png"
                 }
             ]
-        }
+        },
+        "Sitelink": "https://www.example-healthcare.com"
     },
     {
         "id": 4,
-        "projectName" : "Portfolio",
+        "projectName": "Portfolio",
         "role": "Automation Tester",
         "context": "Using Cucumber framework, Selenium, and Java for automation testing.",
+        "ProjectDescription": "Developing automated tests for personal portfolio site to ensure seamless user experience.",
+        "domain": "Personal",
         "duration": "June 2024 - Present",
         "individualContribution": {
-            "videoLink": "https://www.example.com/video",
-            "images": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ffiles.worldwildlife.org%2Fwwfcmsprod%2Fimages%2FTiger_resting_Bandhavgarh_National_Park_India%2Fhero_small%2F6aofsvaglm_Medium_WW226365.jpg&tbnid=DkxTrO5ibg3cjM&vet=12ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp..i&imgrefurl=https%3A%2F%2Fwww.worldwildlife.org%2Fspecies%2Ftiger&docid=V7d3lFgXfu8H2M&w=640&h=480&itg=1&q=tiger&ved=2ahUKEwis8OqQsZeHAxW3jmMGHePpBcgQMygAegQIARBp",
+            "videoLink": "https://www.example.com/portfolio-video",
+            "ScreenShots": [
+                "https://www.example.com/portfolio-ss1.png",
+                "https://www.example.com/portfolio-ss2.png"
+            ],
             "skills": [
                 {
                     "name": "Selenium",
-                    "image": ""
+                    "image": "https://www.example.com/selenium.png"
                 },
                 {
                     "name": "Cucumber",
-                    "image": ""
+                    "image": "https://www.example.com/cucumber.png"
                 },
                 {
                     "name": "Java",
-                    "image": ""
+                    "image": "https://www.example.com/java.png"
                 }
             ]
-        }
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 5,
+        "projectName": "Travel Booking System",
+        "role": "Automation Tester",
+        "context": "Automated testing for an online travel booking system using Selenium and Java.",
+        "ProjectDescription": "Ensured the smooth functioning of booking, payment, and customer support modules.",
+        "domain": "Travel",
+        "duration": "March 2024 - June 2024",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/bootstrap.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/bootstrap.png"
+            ],
+            "skills": [
+                {
+                    "name": "Selenium",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/bootstrap.png"
+                },
+                {
+                    "name": "Java",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/bootstrap.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-travel.com"
     }
 ]
