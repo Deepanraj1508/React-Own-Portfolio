@@ -3,6 +3,9 @@
     display: flex;
     justify-content: center;
 }
+.skills-header h1 {
+    color: #344054;
+}
 
 .skills_container {
     display: flex;

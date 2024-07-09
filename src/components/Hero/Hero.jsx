@@ -47,7 +47,7 @@ const Hero = () => {
                 />
                 <img src={main_front} alt="Front" className="main-front" />
                 <div className="main-img-btn">
-                    <a className='btn-arrow' href={'/'}>Portfolio <img src={up_arrow} alt="" /></a>
+                    <a className='btn-arrow' href={'/React-Own-Portfolio'}>Portfolio <img src={up_arrow} alt="" /></a>
                     <a className='btn-arrow' href={resume} target="_blank" rel="noopener noreferrer">Resume <img src={up_arrow} alt="" /></a>
                 </div>
             </div>

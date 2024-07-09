@@ -1,0 +1,28 @@
+.project-header {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-header h1{
+    color: #344054;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+}
+.project-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+.project-left button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #cc6c30;
+    color: white;
+}

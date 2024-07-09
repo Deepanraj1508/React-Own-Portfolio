@@ -1,0 +1,26 @@
+.project-list{
+    margin-bottom: 30px;
+}
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.project-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+.project-btn button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #cc6c30;
+    color: white;
+}
