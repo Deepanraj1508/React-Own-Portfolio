@@ -42,6 +42,8 @@
 /* Common nav item styles */
 .nav-item {
     height: 66px;
+    font-size: 20px;
+    font-weight: 600;
     padding: 10px 40px;
     display: flex;
     align-items: center;
@@ -71,7 +73,7 @@
 .nav-menu-right .nav-item:hover {
     height: 40px;
     border-radius: 50px;
-    background: #cc6c30;
+    background: #FD853A;
 }
 
 /* Logo hover effects */

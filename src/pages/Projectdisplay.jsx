@@ -35,17 +35,16 @@ const ProjectDisplay = ({ projects }) => {
                 <ul>
                     {project.individualContribution.skills.map((skill, index) => (
                         <li key={index}>
-                            {skill.image && <img src={skill.image} alt={skill.name} style={{ width: '50px', height: '50px', marginRight: '10px' }} />}
+                            {skill.image && <img src={skill.image} alt={skill.name} style={{ width: '80px', height: '80px', padding: '5px 60px;' }} />}
                             {skill.name}
                         </li>
                     ))}
                 </ul>
 
             </div>
-            <p className='project-data-link' >Site Link: <a href={project.Sitelink} target="_blank" rel="noopener noreferrer">Visit Site</a></p>
-
+            <h1 className='project-data-link' >Site Link:<a href={project.Sitelink} target="_blank" rel="noopener noreferrer"> Visit Site</a></h1>
             <div className="project-data-screenshot">
-                <p className='project-data-header' >ScreenShots</p>
+                <p className='project-data-header' >Screenshots</p>
                 <div className="screenshot-container">
                     {project.individualContribution.ScreenShots.map((screenshot, index) => (
                         <img

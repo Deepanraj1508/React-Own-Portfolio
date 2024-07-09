@@ -59,7 +59,7 @@ const Hero = () => {
                     <img src={star} alt="" />
                     <img src={star} alt="" />
                 </div>
-                <h1>1 Years</h1>
+                <h1>1+ Years</h1>
                 <p>Experience</p>
             </div>
         </div>

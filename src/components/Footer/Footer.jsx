@@ -11,6 +11,7 @@ import whatsapp from '../Assets/footer/social_icons/whatsapp.png'
 import twitter from '../Assets/footer/social_icons/twitter.png'
 import linkedin from '../Assets/footer/social_icons/linkedin.png'
 import youtube from '../Assets/footer/social_icons/youtube.png'
+import resume from '../Assets/Deepanraj.pdf';
 
 const Footer = () => {
   return (
@@ -19,10 +20,14 @@ const Footer = () => {
         <h1>
           Let's connect there
         </h1>
-        <button className='hire-me'>Resume
-          <img className='hire-me-img-prev' src={up_arrow} alt="" />
-          <img className='hire-me-img-after' src={right_arrow} alt="" />
-        </button>
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          <button className='hire-me'>
+            Resume
+            <img className='hire-me-img-prev' src={up_arrow} alt="" />
+            <img className='hire-me-img-after' src={right_arrow} alt="" />
+          </button>
+        </a>
+
       </div>
       <hr />
       <div className='footer-container-middle'>
@@ -112,8 +117,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className='footer-container-bottom'>
-        <p>Copyright© 2024 Deepanraj. All Rights Reserved.</p>
-        <p>User Terms & Conditions | Privacy Policy </p>
+        <p>Copyright © 2024 Deepanraj. All Rights Reserved.</p>
 
       </div>
 

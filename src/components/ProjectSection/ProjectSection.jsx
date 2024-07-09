@@ -19,7 +19,7 @@ const ProjectSection = () => {
       <div className='project-container'>
         <div className="project-left">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iste neque nulla labore autem maxime impedit dolor iusto mollitia, nostrum vitae quas omnis adipisci natus ullam quisquam alias, repudiandae ab.</p>
-          <button onClick={handleExploreClick}>Explore project</button> {/* Add onClick event */}
+          <button onClick={handleExploreClick}>Explore Project</button> {/* Add onClick event */}
         </div>
         <div className="project-right">
           <img src={img_prev} alt="" />

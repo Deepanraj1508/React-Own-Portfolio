@@ -19,7 +19,7 @@
   .footer-container-bottom {
     margin: 10px 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -58,6 +58,7 @@
     border-radius: 60px;
     background: #FD853A;
     border: none;
+    cursor: pointer;
   }
 
   .hire-me .hire-me-img-after{
@@ -182,4 +183,9 @@
   .footer-contact-link{
     text-decoration: none;
     color: white;
+  }
+
+
+  .footer-container-top a{
+    text-decoration: none;
   }
