@@ -8,7 +8,7 @@ const ProjectList = ({ projects }) => {
         <div>
             {projects.map(project => (
                 <div key={project.id} className='project-list'>
-                    <div className="project-container">
+                    <div className="project-container-">
                         <div className="project-title">
                             <h2>{project.projectName}</h2>
                             <p>{project.context}</p>

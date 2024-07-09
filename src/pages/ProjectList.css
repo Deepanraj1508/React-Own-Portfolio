@@ -1,3 +1,7 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
 .project-list {
     margin-bottom: 30px;
     display: flex;
@@ -6,7 +10,7 @@
 
 }
 
-.project-container {
+.project-container- {
     padding: 25px;
     display: flex;
     align-items: center;
@@ -34,4 +38,93 @@
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+
+.projects-data-display{
+    margin: 0px 50px;
+}
+
+.project-data-main{
+    font-size: 20px;
+    font-weight: 800;
+    color: #cc6c30;
+    margin-bottom: 30px;
+}
+
+.project-data-main span{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.project-data-header{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.project-video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.project-data-screenshot{
+    margin-bottom: 30px;
+}
+
+
+.project-data-screenshot .screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-data-screenshot .screenshot-container img {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.project-data-skills ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.project-data-skills ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.project-data-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.project-data-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-data-link{
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
 }

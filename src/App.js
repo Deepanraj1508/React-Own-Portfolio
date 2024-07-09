@@ -8,7 +8,7 @@ import Main from './pages/Main';
 import ProjectList from './pages/ProjectList';
 import ProjectDisplay from './pages/Projectdisplay';
 
-import project_data from './components/Assets/test.json'
+import project_data from './components/Assets/ProjectData.json'
 
 function App() {
   const [showScroll, setShowScroll] = useState(false);
