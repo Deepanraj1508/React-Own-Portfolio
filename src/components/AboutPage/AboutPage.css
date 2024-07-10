@@ -1,7 +1,7 @@
 .aboutpage {
-
-    display: flex;
     align-items: center;
+    display: flex;
+    margin-top: 50px;
 }
 
 .about-content h1 {

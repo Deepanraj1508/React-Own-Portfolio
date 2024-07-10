@@ -1,10 +1,10 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import './ImageSlideshow.css'; // Create this file for custom styles
+import './ImageSlideshow.css'; // Custom styles
 
-import project_one from '../Assets/ncg.png'
-import project_two from '../Assets/bank.png'
+import project_one from '../Assets/ncg.png';
+import project_two from '../Assets/bank.png';
 
 const ImageSlideshow = () => {
   const images = [
@@ -15,7 +15,13 @@ const ImageSlideshow = () => {
 
   return (
     <div className="slideshow-container">
-      <Slide easing="ease" duration={2000} transitionDuration={500} indicators arrows>
+      <Slide
+        easing="ease"
+        duration={2000}
+        transitionDuration={500}
+        indicators={true} // Disable indicators
+        arrows={false} // Disable arrows
+      >
         {images.map((image, index) => (
           <div className="slide-wrapper" key={index}>
             <div

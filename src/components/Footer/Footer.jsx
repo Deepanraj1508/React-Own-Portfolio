@@ -46,13 +46,14 @@ const Footer = () => {
             </p>
           </div>
 
+
           <div className="social-icon">
-            <img src={facebook} alt="" />
-            <img src={youtube} alt="" />
-            <img src={whatsapp} alt="" />
-            <img src={instagram} alt="" />
-            <img src={twitter} alt="" />
-            <img src={linkedin} alt="" />
+            <a href="https://www.facebook.com/deepanraj.deepanraj.77312?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="Facebook" /></a>
+            <a href="https://www.youtube.com/yourchannel" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="YouTube" /></a>
+            <a href="https://wa.me/7708486647" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="WhatsApp" /></a>
+            <a href="https://www.instagram.com/mr._attract/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" /></a>
+            <a href="https://twitter.com/Deepanr17836097" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="Twitter" /></a>
+            <a href="https://www.linkedin.com/in/deepanraj-k-b263a1233/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="LinkedIn" /></a>
           </div>
 
 
