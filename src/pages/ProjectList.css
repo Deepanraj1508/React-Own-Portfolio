@@ -75,25 +75,6 @@
     margin-bottom: 30px;
 }
 
-.project-data-screenshot{
-    margin-bottom: 60px;
-}
-
-
-.project-data-screenshot .screenshot-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.project-data-screenshot .screenshot-container img {
-    width: 30%;
-    height: auto;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
 
 .project-data-skills ul {
     display: flex;
@@ -152,4 +133,78 @@
     justify-content: center;
     margin-bottom: 30px;
     color: #344054;
+}
+
+
+
+
+.project-data-screenshot {
+    margin-bottom: 60px;
+}
+
+.project-data-screenshot .screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-data-screenshot .screenshot-container img {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fullscreen-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.fullscreen-view img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-button.left {
+    left: 20px;
+}
+
+.nav-button.right {
+    right: 20px;
 }

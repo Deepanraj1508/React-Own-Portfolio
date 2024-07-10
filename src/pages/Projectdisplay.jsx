@@ -1,9 +1,31 @@
 // src/components/ProjectDisplay.jsx
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './ProjectList.css'
 
 const ProjectDisplay = ({ projects }) => {
+
+    const [currentImage, setCurrentImage] = useState(null);
+    const [isFullscreen, setIsFullscreen] = useState(false);
+
+    const openFullscreen = (index) => {
+        setCurrentImage(index);
+        setIsFullscreen(true);
+    };
+
+    const closeFullscreen = () => {
+        setIsFullscreen(false);
+    };
+
+    const showNextImage = () => {
+        setCurrentImage((prevIndex) => (prevIndex + 1) % project.individualContribution.ScreenShots.length);
+    };
+
+    const showPrevImage = () => {
+        setCurrentImage((prevIndex) => (prevIndex - 1 + project.individualContribution.ScreenShots.length) % project.individualContribution.ScreenShots.length);
+    };
+
+
     const { projectId } = useParams();
     const project = projects.find(p => p.id === parseInt(projectId));
 
@@ -44,17 +66,30 @@ const ProjectDisplay = ({ projects }) => {
             </div>
             <h1 className='project-data-link' >Site Link:<a href={project.Sitelink} target="_blank" rel="noopener noreferrer"> Visit Site</a></h1>
             <div className="project-data-screenshot">
-                <p className='project-data-header' >Screenshots</p>
-                <div className="screenshot-container">
-                    {project.individualContribution.ScreenShots.map((screenshot, index) => (
-                        <img
-                            key={index}
-                            src={screenshot}
-                            alt={`Screenshot ${index + 1}`}
-                        />
-                    ))}
-                </div>
+            <p className='project-data-header'>Screenshots</p>
+            <div className="screenshot-container">
+                {project.individualContribution.ScreenShots.map((screenshot, index) => (
+                    <img
+                        key={index}
+                        src={screenshot}
+                        alt={`Screenshot ${index + 1}`}
+                        onClick={() => openFullscreen(index)}
+                    />
+                ))}
             </div>
+
+            {isFullscreen && (
+                <div className="fullscreen-view">
+                    <button className="close-button" onClick={closeFullscreen}>X</button>
+                    <button className="nav-button left" onClick={showPrevImage}>←</button>
+                    <img
+                        src={project.individualContribution.ScreenShots[currentImage]}
+                        alt={`Screenshot ${currentImage + 1}`}
+                    />
+                    <button className="nav-button right" onClick={showNextImage}>→</button>
+                </div>
+            )}
+        </div>
         </div>
     );
 };
