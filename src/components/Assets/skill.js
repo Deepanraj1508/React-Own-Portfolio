@@ -34,7 +34,7 @@ let skills_data = [
   { id: 12, name: 'Swagger', image: swagger },
   { id: 13, name: 'Django', image: django },
   { id: 14, name: 'Responsive Design', image: responsive },
-  { id: 15, name: 'API Development', image: api },
+  { id: 15, name: 'API', image: api },
   { id: 16, name: 'Go', image: go },
   { id: 17, name: 'Flask', image: flask },
   { id: 18, name: 'Authentication', image: auth }

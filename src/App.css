@@ -66,6 +66,17 @@ body{
   color: #61dafb;
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-container > .footer {
+  margin-top: auto;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

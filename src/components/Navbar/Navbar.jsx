@@ -38,29 +38,29 @@ const Navbar = () => {
         <div className='navbar-main'>
             <div className='navbar'>
                 <ul className={`nav-menu-left ${menuVisible ? 'show' : ''}`}>
-                    <Link 
-                        to="home" 
-                        smooth={true} 
-                        duration={500} 
-                        className={activeLink === 'home' ? 'active' : ''} 
+                    <Link
+                        to="home"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'home' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
                         <li className="nav-item">Home</li>
                     </Link>
-                    <Link 
-                        to="skills" 
-                        smooth={true} 
-                        duration={500} 
-                        className={activeLink === 'skills' ? 'active' : ''} 
+                    <Link
+                        to="skills"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'skills' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
                         <li className="nav-item">Skills</li>
                     </Link>
-                    <Link 
-                        to="project" 
-                        smooth={true} 
-                        duration={500} 
-                        className={activeLink === 'project' ? 'active' : ''} 
+                    <Link
+                        to="project"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'project' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
                         <li className="nav-item">Project</li>
@@ -74,29 +74,29 @@ const Navbar = () => {
                     </div>
                 </div>
                 <ul className={`nav-menu-right ${menuVisible ? 'show' : ''}`}>
-                    <li className="nav-item">
-                        <a href={resume} target="_blank" rel="noopener noreferrer">
-                            Resume
-                        </a>
-                    </li>
-                    <Link 
-                        to="about" 
-                        smooth={true} 
-                        duration={500} 
-                        className={activeLink === 'about' ? 'active' : ''} 
+
+                    <a href={resume} className='nav-resume' target="_blank" rel="noopener noreferrer">
+                        <li className="nav-item">Resume</li>
+                    </a>
+
+                    <Link
+                        to="about"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'about' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
                         <li className="nav-item">About</li>
                     </Link>
 
-                    <Link 
-                        to="contact" 
-                        smooth={true} 
-                        duration={500} 
-                        className={activeLink === 'contact' ? 'active' : ''} 
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'contact' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
-                    <li className="nav-item">Contact</li>
+                        <li className="nav-item">Contact</li>
                     </Link>
                 </ul>
                 <div className="mobile-menu-icon" onClick={toggleMenu}>

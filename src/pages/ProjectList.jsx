@@ -5,7 +5,7 @@ import './ProjectList.css'
 
 const ProjectList = ({ projects }) => {
     return (
-        <div>
+        <div className='project-lists'>
             {projects.map(project => (
                 <div key={project.id} className='project-list'>
                     <div className="project-container-">
