@@ -59,6 +59,9 @@ const Skills = () => {
                 overlayClassName="overlay"
             >
                 <div className='exp-code main'>
+                    <div className='exp-btn'>
+                        <button className='exp-code-btn' onClick={closeModal}>X</button>
+                    </div>
                     <h2 className='exp-code-header'>{selectedSkill?.name} Example Code</h2>
                     <pre className='exp-code-pre'>
                         <div className="code-colors">
@@ -71,9 +74,7 @@ const Skills = () => {
                             {selectedSkill?.example}
                         </code>
                     </pre>
-                    <div className='exp-btn'>
-                        <button className='exp-code-btn' onClick={closeModal}>Close</button>
-                    </div>
+
                 </div>
 
             </Modal>
