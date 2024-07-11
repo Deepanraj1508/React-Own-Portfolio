@@ -7,9 +7,8 @@ import { animateScroll as scroll } from 'react-scroll';
 import Main from './pages/Main';
 import ProjectList from './pages/ProjectList';
 import ProjectDisplay from './pages/ProjectDisplay';
-import project_data from './components/Assets/ProjectData.json';
 
-function ScrollToTop() {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -17,18 +16,17 @@ function ScrollToTop() {
   }, [pathname]);
 
   return null;
-}
+};
 
-function App() {
+const App = () => {
   const [showScroll, setShowScroll] = useState(false);
+  const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   const checkScrollTop = useCallback(() => {
-    if (!showScroll && window.pageYOffset > 400) {
-      setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 400) {
-      setShowScroll(false);
-    }
-  }, [showScroll]);
+    setShowScroll(window.pageYOffset > 400);
+  }, []);
 
   const scrollTop = () => {
     scroll.scrollToTop();
@@ -41,15 +39,35 @@ function App() {
     };
   }, [checkScrollTop]);
 
-  const [projects, setProjects] = useState([]);
-
   useEffect(() => {
-    // Instead of fetching, we directly set the imported JSON data
-    setProjects(project_data);
+    const fetchProjects = async () => {
+      try {
+        const response = await fetch('http://localhost:3000/projectdata');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        setProjects(data);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProjects();
   }, []);
 
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
+
   return (
-    <div style={{ margin: '0px 0px' }}>
+    <div className="app-container">
       <BrowserRouter>
         <ScrollToTop />
         <Navbar />

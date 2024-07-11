@@ -179,14 +179,21 @@
 .close-button {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 30px;
     background: none;
     border: none;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
     cursor: pointer;
-    width: 10px;
-    height: 10px;
+    background: #ff8000;
+    border-radius: 50px;
+}
+
+.close-button:hover{
+    transform: scale(1.2);
+    background: red;
 }
 
 .nav-button {
