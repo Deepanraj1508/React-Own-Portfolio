@@ -51,6 +51,8 @@
 
 @media (max-width: 1060px) {}
 
+   Tab Responsive
+
 @media (max-width: 1025px) {}
 
 
@@ -73,6 +75,11 @@
 
 
 @media (max-width: 790px) {}
+
+@media (max-width: 768px) {}
+
+
+Mobile responsive
 
 
 @media (max-width: 767px) {}

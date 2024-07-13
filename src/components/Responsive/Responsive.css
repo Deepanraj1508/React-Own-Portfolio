@@ -1049,7 +1049,8 @@
 
 
     .contact-bottom {
-        width: 100% !important;
+        height: 40px !important;
+        width: 90% !important;
     }
 
     .contect-text span {
@@ -1430,6 +1431,15 @@
 
     .contect-text h1 {
         margin: 0px 10px;
+    }
+
+    .contact-bottom img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .contact-bottom button{
+        font-size: 16px !important;
     }
 
 
