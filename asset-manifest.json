@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Own-Portfolio/static/css/main.5541e968.css",
-    "main.js": "/React-Own-Portfolio/static/js/main.28d370c5.js",
+    "main.css": "/React-Own-Portfolio/static/css/main.daf6b85c.css",
+    "main.js": "/React-Own-Portfolio/static/js/main.9c42558d.js",
     "static/js/453.ace21015.chunk.js": "/React-Own-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/ncg.png": "/React-Own-Portfolio/static/media/ncg.32e4b6341b4fb4649974.png",
     "static/media/res.png": "/React-Own-Portfolio/static/media/res.339ab8560450cc8c1e36.png",
+    "static/media/Ecom.png": "/React-Own-Portfolio/static/media/Ecom.3a2063457045fc1b292e.png",
     "static/media/front.png": "/React-Own-Portfolio/static/media/front.878f5c21f9ebdfa24f7c.png",
     "static/media/img-prev.png": "/React-Own-Portfolio/static/media/img-prev.bdefcb2d1237619cb513.png",
+    "static/media/EcomShop.png": "/React-Own-Portfolio/static/media/EcomShop.d7b6b70773f6ab8636c5.png",
     "static/media/bank.png": "/React-Own-Portfolio/static/media/bank.92e4223e762a36b16fca.png",
     "static/media/react.png": "/React-Own-Portfolio/static/media/react.aac79ad16072d24a64f2.png",
     "static/media/mongo-db.png": "/React-Own-Portfolio/static/media/mongo-db.4ab3095b1f109ecb9d6b.png",
@@ -21,6 +23,7 @@
     "static/media/middle-.png": "/React-Own-Portfolio/static/media/middle-.579c2ae8b03eac9525ab.png",
     "static/media/github.png": "/React-Own-Portfolio/static/media/github.7c93d76f87e90563e70f.png",
     "static/media/bootstrap.png": "/React-Own-Portfolio/static/media/bootstrap.fb0952b9f5d0a8d5824e.png",
+    "static/media/onlinequiz.png": "/React-Own-Portfolio/static/media/onlinequiz.efac2466060236ec52f9.png",
     "static/media/auth.png": "/React-Own-Portfolio/static/media/auth.3f732a080065352dd886.png",
     "static/media/python (1).png": "/React-Own-Portfolio/static/media/python (1).8187b573e409ea8e89d9.png",
     "static/media/go.png": "/React-Own-Portfolio/static/media/go.e6ba172b207113539c92.png",
@@ -35,12 +38,12 @@
     "static/media/swagger-.jpg": "/React-Own-Portfolio/static/media/swagger-.a8692d22078ba58a43a8.jpg",
     "static/media/linkedin.png": "/React-Own-Portfolio/static/media/linkedin.45394e1bbe628643df3d.png",
     "index.html": "/React-Own-Portfolio/index.html",
-    "main.5541e968.css.map": "/React-Own-Portfolio/static/css/main.5541e968.css.map",
-    "main.28d370c5.js.map": "/React-Own-Portfolio/static/js/main.28d370c5.js.map",
+    "main.daf6b85c.css.map": "/React-Own-Portfolio/static/css/main.daf6b85c.css.map",
+    "main.9c42558d.js.map": "/React-Own-Portfolio/static/js/main.9c42558d.js.map",
     "453.ace21015.chunk.js.map": "/React-Own-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5541e968.css",
-    "static/js/main.28d370c5.js"
+    "static/css/main.daf6b85c.css",
+    "static/js/main.9c42558d.js"
   ]
 }
