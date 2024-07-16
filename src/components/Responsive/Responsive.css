@@ -49,14 +49,19 @@
 
     .nav-logo img {
         margin-bottom: 5px;
+        width: 30px;
+        height: 30px;
     }
 
     .nav-logo p.nav-name-full {
         display: none;
+        font-size: 12px;
+        
     }
 
     .nav-logo p.nav-name-prev {
         display: block;
+        font-size: 12px;
     }
 
     .nav-menu-left {

@@ -3,14 +3,19 @@ import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './ImageSlideshow.css'; // Custom styles
 
-import project_one from '../Assets/ncg.png';
-import project_two from '../Assets/bank.png';
+import project_one from '../Assets/projects/ncg.png';
+import project_two from '../Assets/projects/Ecom.png';
+import project_three from '../Assets/projects/onlinequiz.png';
+import project_four from '../Assets/projects/bank.png';
+import project_five from '../Assets/projects/EcomShop.png';
 
 const ImageSlideshow = () => {
   const images = [
     project_one,
     project_two,
-    project_one,
+    project_three,
+    project_four,
+    project_five
   ];
 
   return (

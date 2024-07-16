@@ -7,7 +7,7 @@
   margin-bottom: 30px;
 }
 
-.project-btn button{
+.project-btn button {
   width: 200px;
   height: 50px;
   border-radius: 50px;
@@ -17,4 +17,8 @@
   background: #FD853A;
   color: white;
   cursor: pointer;
+}
+
+.project-btn button:hover {
+  opacity: 0.8
 }
