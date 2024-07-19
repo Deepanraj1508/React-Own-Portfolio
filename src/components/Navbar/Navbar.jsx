@@ -3,7 +3,7 @@ import { Link, Events, scrollSpy } from 'react-scroll';
 import './Navbar.css';
 import '../Responsive/Responsive.css';
 import logo from '../Assets/logo.png';
-import resume from '../Assets/Deepanraj.pdf';
+import resume from '../Assets/Deepanraj K Resume.pdf';
 
 const Navbar = () => {
     const [menuVisible, setMenuVisible] = useState(false);

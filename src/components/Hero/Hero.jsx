@@ -10,7 +10,7 @@ import main_back from '../Assets/hero/back.png';
 import main_front from '../Assets/hero/front.png';
 import main_middle from '../Assets/hero/middle-.png';
 import star from '../Assets/hero/Star.png';
-import resume from '../Assets/Deepanraj.pdf';
+import resume from '../Assets/Deepanraj K Resume.pdf';
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -32,7 +32,7 @@ const Hero = () => {
         <div className='main-content-img'>
             <div className={`main-left ${isHovered ? 'show' : ''}`}>
                 <img src={quotes} alt="" />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, cumque nobis? Praesentium illum ratione officiis quae voluptatum itaque obcaecati!</p>
+                <p>I am a passionate individual dedicated to working on end-to-end products that develop sustainable and scalable social and technical systems, creating a meaningful impact.</p>
             </div>
             <div 
               className="main-middle" 

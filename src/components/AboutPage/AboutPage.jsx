@@ -15,7 +15,12 @@ const AboutPage = () => {
         </div>
         <div className="about-content">
           <h1>About <span>Me</span></h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quasi sed vel esse voluptate, vitae voluptates architecto aperiam tempore assumenda cupiditate dolor quam inventore accusamus commodi debitis nobis. Porro, aliquid!</p>
+          <p>Experienced Python developer with a solid understanding of
+            programming fundamentals. Proficient in Python, React and SQL,
+            enthusiastic about developing efficient and dependable
+            applications. Possesses excellent problem-solving skills and works
+            well in a team. Looking forward to making a valuable contribution to
+            software development projects.</p>
         </div>
       </div>
     </Element>
