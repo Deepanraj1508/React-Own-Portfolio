@@ -39,6 +39,7 @@
   }
 
   .footer-container-middle-one{
+    width: 100%;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -188,4 +189,12 @@
 
   .footer-container-top a{
     text-decoration: none;
+  }
+
+  .quotes{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    
   }
