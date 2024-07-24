@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Own-Portfolio/static/css/main.b6cb58d5.css",
-    "main.js": "/React-Own-Portfolio/static/js/main.bf69f38c.js",
-    "static/js/453.ace21015.chunk.js": "/React-Own-Portfolio/static/js/453.ace21015.chunk.js",
+    "main.js": "/React-Own-Portfolio/static/js/main.282662ad.js",
+    "static/js/488.96fb4840.chunk.js": "/React-Own-Portfolio/static/js/488.96fb4840.chunk.js",
     "static/media/ncg.png": "/React-Own-Portfolio/static/media/ncg.32e4b6341b4fb4649974.png",
     "static/media/res.png": "/React-Own-Portfolio/static/media/res.339ab8560450cc8c1e36.png",
     "static/media/Ecom.png": "/React-Own-Portfolio/static/media/Ecom.3a2063457045fc1b292e.png",
@@ -39,11 +39,11 @@
     "static/media/linkedin.png": "/React-Own-Portfolio/static/media/linkedin.45394e1bbe628643df3d.png",
     "index.html": "/React-Own-Portfolio/index.html",
     "main.b6cb58d5.css.map": "/React-Own-Portfolio/static/css/main.b6cb58d5.css.map",
-    "main.bf69f38c.js.map": "/React-Own-Portfolio/static/js/main.bf69f38c.js.map",
-    "453.ace21015.chunk.js.map": "/React-Own-Portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.282662ad.js.map": "/React-Own-Portfolio/static/js/main.282662ad.js.map",
+    "488.96fb4840.chunk.js.map": "/React-Own-Portfolio/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6cb58d5.css",
-    "static/js/main.bf69f38c.js"
+    "static/js/main.282662ad.js"
   ]
 }
