@@ -7,8 +7,6 @@
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
-    "glob": "^11.0.0",
-    "globby": "^14.0.2",
     "mdb-react-ui-kit": "^8.0.0",
     "npm-force-resolutions": "^0.0.10",
     "react": "^18.3.1",
