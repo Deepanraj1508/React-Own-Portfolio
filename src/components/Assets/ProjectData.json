@@ -1,0 +1,306 @@
+[
+    {
+        "id": 1,
+        "projectName": "Ecommerce Full Stack",
+        "role": "Developer",
+        "context": "Developing a comprehensive ecommerce platform from scratch.",
+        "ProjectDescription": "Experience seamless online shopping with our advanced E-commerce platform, built using Django Rest Framework and React. Enjoy intuitive navigation, secure transactions, and dynamic product management for a superior user experience. Our robust backend ensures reliability and scalability, providing everything you need for a modern and efficient online shopping experience.",
+        "domain": "Ecommerce",
+        "duration": "Jan 2024 - Present",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/9.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/10.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/11.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/12.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/13.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomFull/14.png"
+            ],
+            "skills": [
+                {
+                    "name": "Python",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/python.png"
+                },
+                {
+                    "name": "Django",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/django.png"
+                },
+                {
+                    "name": "React",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/react.png"
+                },
+                {
+                    "name": "API",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/api.png"
+                },
+                {
+                    "name": "Authentication",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/auth.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 2,
+        "projectName": "Nature Captured",
+        "role": "Developer",
+        "context": "Based on capturing the essence of natural landscapes.",
+        "projectDescription": "Nature Captured is an immersive project leveraging HTML for structured content, CSS for elegant design elements, and JavaScript for interactive storytelling. It showcases the exquisite beauty of diverse gardens and landscapes through compelling photography and engaging narrative.",
+        "domain": "Garden",
+        "duration": "Jan 2023 - June 2023",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/NCG/9.png"
+            ],
+            "skills": [
+                {
+                    "name": "HTML",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/html.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                },
+                {
+                    "name": "Java Script",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/javascript.png"
+                },
+                {
+                    "name": "Bootstrap",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/bootstrap.png"
+                },
+                {
+                    "name": "Json",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/json.png"
+                }
+            ]
+        },
+        "Sitelink": "https://deepankumar.pythonanywhere.com/"
+    },
+    {
+        "id": 3,
+        "projectName": "Bank Management System",
+        "role": "Developer",
+        "context": "Developing a comprehensive management system for efficient banking operations.",
+        "projectDescription": "The Bank Management System project aims to streamline banking processes through robust software solutions. It includes features for customer management, transaction tracking, and administrative tools.",
+        "domain": "Bank",
+        "duration": "Nov 2023 - Feb 2024",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/9.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/Bank/10.png"
+            ],
+            "skills": [
+                {
+                    "name": "Python",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/python.png"
+                },
+                {
+                    "name": "Flask",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/flask.png"
+                },
+                {
+                    "name": "HTML",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/html.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                },
+                {
+                    "name": "Java Script",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/javascript.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 4,
+        "projectName": "EcomShop",
+        "role": "Developer",
+        "context": "Creating a robust E-commerce platform with Django Rest Framework and React.",
+        "projectDescription": "EcomShop is a cutting-edge E-commerce platform designed to provide seamless shopping experiences. It incorporates features like secure transactions, dynamic product management, and user-friendly navigation.",
+        "domain": "Ecommerce",
+        "duration": "Mar 2023 - Aug 2023",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/9.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/10.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/11.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/EcomShop/12.png"
+            ],
+            "skills": [
+                {
+                    "name": "Python",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/python.png"
+                },
+                {
+                    "name": "Flask",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/flask.png"
+                },
+                {
+                    "name": "HTML",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/html.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                },
+                {
+                    "name": "Java Script",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/javascript.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 5,
+        "projectName": "Old Portfolio",
+        "role": "Developer",
+        "context": "Refreshing and updating a personal website portfolio.",
+        "projectDescription": "The Old Portfolio project involves redesigning and enhancing a personal website to showcase skills, projects, and achievements effectively. It focuses on improving user experience and highlighting professional accomplishments.",
+        "domain": "Personal Website",
+        "duration": "Aug 2022 - Dec 2022",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OldPortfolio/9.png"
+            ],
+            "skills": [
+                {
+                    "name": "HTML",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/html.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                },
+                {
+                    "name": "Java Script",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/javascript.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 6,
+        "projectName": "Student Details Get app Fullstack",
+        "role": "Developer",
+        "context": "Building a full-stack application to retrieve and manage student information.",
+        "projectDescription": "The Student Details Get app Fullstack project aims to create a comprehensive application for accessing and managing student data. It includes frontend development for user interaction and backend development for data storage and retrieval.",
+        "domain": "Education",
+        "duration": "June 2024 - July 2024",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/StudentApp/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/StudentApp/2.png"
+            ],
+            "skills": [
+                {
+                    "name": "Python",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/python.png"
+                },
+                {
+                    "name": "Django",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/django.png"
+                },
+                {
+                    "name": "React",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/react.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    },
+    {
+        "id": 7,
+        "projectName": "Online Quizz",
+        "role": "Developer",
+        "context": "Creating an interactive online quiz platform.",
+        "projectDescription": "The Online Quizz project involves developing a web-based platform for conducting interactive quizzes. It includes features such as user registration, quiz creation, real-time scoring, and result analysis.",
+        "domain": "Education",
+        "duration": "June 2024 - Present",
+        "individualContribution": {
+            "videoLink": "https://www.youtube.com/embed/1x_dQEZZfUo?si=AqmTc5OE_-Nvr7os",
+            "ScreenShots": [
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/1.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/2.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/3.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/4.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/5.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/6.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/7.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/8.png",
+                "https://raw.githubusercontent.com/Deepanraj1508/images/main/OnlineQuiz/9.png"
+            ],
+            "skills": [
+                {
+                    "name": "HTML",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/html.png"
+                },
+                {
+                    "name": "Css",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/css.png"
+                },
+                {
+                    "name": "Java Script",
+                    "image": "https://raw.githubusercontent.com/Deepanraj1508/images/main/skills/javascript.png"
+                }
+            ]
+        },
+        "Sitelink": "https://www.example-portfolio.com"
+    }
+]
