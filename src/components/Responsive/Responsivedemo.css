@@ -1,0 +1,137 @@
+/* 
+Mobile responsive */
+
+
+@media (max-width: 767px) {}
+
+
+@media (max-width: 680px) {}
+
+
+@media (min-width: 600px) {}
+
+
+@media (max-width: 650px) {}
+
+
+@media (max-width: 600px) {}
+
+
+@media (max-width: 580px) {}
+
+
+@media (max-width: 540px) {}
+
+
+@media (max-width: 500px) {}
+
+
+@media (max-width: 480px) {}
+
+
+@media (max-width: 440px) {}
+
+
+@media (max-width: 400px) {}
+
+
+@media (max-width: 389px) {}
+
+
+@media (max-width: 375px) {}
+
+
+@media (max-width: 321px) {
+
+    /* Navbar Section */
+
+    .navbar-main {
+        width: 100% !important;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .nav-menu-left,
+    .nav-menu-right {
+        flex-direction: column;
+        width: 100%;
+        font-size: 12px;
+        display: none;
+    }
+
+    .nav-menu-left.show,
+    .nav-menu-right.show {
+        display: flex;
+        width: auto;
+    }
+
+    .nav-item {
+        padding: 5px 5px;
+        height: auto;
+        width: 100%;
+    }
+
+    .nav-logo {
+        width: 50%;
+    }
+    li.nav-item {
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .nav-logo.row {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav-logo.column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .nav-logo p.nav-name-full {
+        display: none;
+        font-size: 10px;
+    }
+
+    .nav-logo p.nav-name-prev {
+        display: block;
+        font-size: 10px;
+    }
+
+    .nav-menu-left {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .nav-logo img .nav-menu-right {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .mobile-menu-icon img {
+        display: block;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .mobile-menu-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}

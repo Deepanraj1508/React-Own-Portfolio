@@ -3,7 +3,6 @@ import { Link, Events, scrollSpy } from 'react-scroll';
 import './Navbar.css';
 import '../Responsive/Responsive.css';
 import logo from '../Assets/logo.png';
-import resume from '../Assets/Deepanraj K Resume.pdf';
 
 const Navbar = () => {
     const [menuVisible, setMenuVisible] = useState(false);
@@ -75,9 +74,15 @@ const Navbar = () => {
                 </div>
                 <ul className={`nav-menu-right ${menuVisible ? 'show' : ''}`}>
 
-                    <a href={resume} className='nav-resume' target="_blank" rel="noopener noreferrer">
+                <Link
+                        to="resume"
+                        smooth={true}
+                        duration={500}
+                        className={activeLink === 'resume' ? 'active' : ''}
+                        onSetActive={handleSetActive}
+                    >
                         <li className="nav-item">Resume</li>
-                    </a>
+                    </Link>
 
                     <Link
                         to="about"

@@ -1,0 +1,155 @@
+/* Resume.css */
+.resume-container {
+    display: flex;
+    flex-direction: row; /* Default for larger screens */
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 250px;
+    height: auto;  /* Ensure the container takes full height for scrolling */
+}
+
+.resume-left {
+    flex: 0 0 40%;
+    padding-right: 20px;
+    position: sticky;
+    top: 20px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-right {
+    flex: 0 0 60%; /* Takes up 40% of the width */
+    padding-left: 20px;
+    /* overflow-y: auto; */
+    height: auto; /* Full height for scrolling */
+}
+
+/* Styles for different screen sizes */
+@media (max-width: 1200px) {
+    .resume-left {
+        flex: 0 0 50%; /* Adjust to 50% for medium screens */
+    }
+    .resume-right {
+        flex: 0 0 50%; /* Adjust to 50% for medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .resume-container {
+        flex-direction: column; /* Stack vertically for smaller screens */
+    }
+    .resume-left, .resume-right {
+        flex: 1 1 auto; /* Full width for stacked layout */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    .resume-left {
+        position: relative; /* Remove sticky positioning in stacked layout */
+        height: auto; /* Adjust height */
+    }
+    .resume-right {
+        overflow-y: visible; /* Allow normal scrolling */
+    }
+}
+
+.resume-title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #344054;
+}
+
+.resume-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exp-header {
+    color: #344054;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.exp-title, .edu-title, .certi-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.company-title {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.res-span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.roles-res {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.exp-roles {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.timeline-text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.accordion__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+    font-size: 16px;
+}
+
+
+.accordion__panel {
+    padding: 10px;
+    background-color: #fff; /* Background color for the content */
+    border-top: 1px solid #ddd; /* Border to separate content from button */
+}
+
+
+.flex {
+    flex-grow: 1;
+}
+
+.exp-header {
+    margin: 0;
+}

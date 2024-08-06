@@ -1,10 +1,11 @@
 .skills-header {
-    margin-top: 25%;
     display: flex;
     justify-content: center;
 }
 .skills-header h1 {
+    font-size: 64px;
     color: #344054;
+    font-weight: bold;
 }
 
 .skills_container {
