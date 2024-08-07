@@ -7,7 +7,7 @@ import vector_img_down from '../Assets/hero/Vector-2.png';
 import quotes from '../Assets/hero/quote-up.png';
 import up_arrow from '../Assets/hero/up right.png';
 import main_back from '../Assets/hero/back.png';
-import main_front from '../Assets/hero/front.png';
+import main_front from '../Assets/hero/frontss.png';
 import main_middle from '../Assets/hero/middle-.png';
 import star from '../Assets/hero/Star.png';
 import resume from '../Assets/Deepanraj K Resume.pdf';

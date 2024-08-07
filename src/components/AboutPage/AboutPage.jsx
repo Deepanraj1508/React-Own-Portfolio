@@ -2,7 +2,7 @@ import React from 'react';
 import { Element } from 'react-scroll';
 import './AboutPage.css';
 import '../Responsive/Responsive.css';
-import img_prev from '../Assets/about/img-prev.png';
+import img_prev from '../Assets/about/img-prev2.png';
 import img_after from '../Assets/about/image-after.png';
 
 const AboutPage = () => {

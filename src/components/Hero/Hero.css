@@ -262,10 +262,6 @@ p {
     transform: translateY(0);
 }
 
-.main-front {
-    z-index: 3;
-}
-
 
 .main-middle img {
     width: 230%;

@@ -9,8 +9,7 @@ const ContactUs = () => {
             <div className='contactus'>
                 <div className="contact-top">
                     <div className="contact-text">
-                        <h1>Have an Awesome Project</h1>
-                        <h1>Idea? <span>Let’s Discuss</span></h1>
+                        <h1>Contact <span>Me</span></h1>
                     </div>
                 </div>
                 <div className="form-container">
@@ -23,7 +22,7 @@ const ContactUs = () => {
                                 name="name"
                                 id="name"
                                 type="text"
-                                placeholder="Enter your Name"
+                                placeholder="Enter your name"
                             />
                         </div>
                         <div className="form-group">
