@@ -48,11 +48,11 @@
   
   .hire-me {
     display: flex;
-    width: 180px;
+    width: 150px;
     height: 60px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: white;
     padding: 10px 20px;
@@ -75,7 +75,7 @@
   }
   
   .hire-me-img-prev, .hire-me-img-after{
-    width: 35px;
+    width: 28px;
   }
   
   .social-icon {

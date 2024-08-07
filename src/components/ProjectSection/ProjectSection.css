@@ -7,18 +7,46 @@
   margin-bottom: 30px;
 }
 
-.project-btn button {
-  width: 200px;
-  height: 50px;
-  border-radius: 50px;
-  font-size: 20px;
-  font-weight: 700;
-  border: none;
-  background: #FD853A;
+
+.project-btn-main{
+  display: flex;
+  justify-content: center;
+}
+
+
+.project-txt {
+  display: flex;
+  width: 220px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 600;
+  justify-content: space-around;
+  align-items: center;
   color: white;
+  padding: 10px 20px;
+  border-radius: 60px;
+  background: #FD853A;
+  border: none;
   cursor: pointer;
 }
 
+
+.project-txt .project-btn-after{
+  display: none;
+}
+
+.project-txt:hover .project-btn-prev{
+  display: none;
+}
+
+.project-txt:hover .project-btn-after{
+  display: block;
+}
+
+.project-btn-prev, .project-btn-after{
+  width: 28px;
+}
+
 .project-btn button:hover {
-  opacity: 0.8
+  opacity: 0.9
 }

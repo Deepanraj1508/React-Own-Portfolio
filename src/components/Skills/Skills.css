@@ -15,7 +15,6 @@
     justify-content: center;
     margin-top: 2%;
     pointer-events: none;
-
 }
 
 .skills {
@@ -24,19 +23,20 @@
     align-items: center;
     cursor: pointer;
     pointer-events: auto;
+
 }
 
 .skills img {
     padding: 5px 60px;
     width: 80px;
     height: 80px;
+    transform: scale(1.0);
 }
 
 .skills img:hover {
     filter: drop-shadow(5px 5px 25px #ff8000);
     transition: transform .1s;
-    width: 90px;
-    height: 90px;
+    transform: scale(1.1);
 }
 
 .skills h4 {
