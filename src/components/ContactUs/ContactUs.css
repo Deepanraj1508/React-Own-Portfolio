@@ -101,6 +101,9 @@
   .form-container .form-group input::placeholder {
     opacity: 0.5;
   }
+  .form-container .form-group textarea::placeholder {
+    opacity: 0.5;
+  }
   
   .form-container .form-group input:focus {
     outline: none;

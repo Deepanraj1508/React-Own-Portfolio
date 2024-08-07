@@ -143,6 +143,13 @@
     font-size: 15px;
     cursor: pointer;
   }
+
+  .footer-navigation li:hover{
+    color: #FD853A;
+  }
+  .footer-contact-link:hover{
+    color: #FD853A;
+  }
   
   .footer-email {
     display: flex;

@@ -62,7 +62,7 @@ const Navbar = () => {
                         className={activeLink === 'project' ? 'active' : ''}
                         onSetActive={handleSetActive}
                     >
-                        <li className="nav-item">Project</li>
+                        <li className="nav-item">Projects</li>
                     </Link>
                 </ul>
                 <div className={`nav-item nav-logo ${menuVisible ? 'column' : 'row'}`}>

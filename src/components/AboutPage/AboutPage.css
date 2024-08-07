@@ -17,6 +17,7 @@ span {
 
 .about-content p {
     font-size: 20px;
+    text-align: justify;
     color: #344054;
     margin-bottom: 30px;
 
@@ -24,6 +25,7 @@ span {
 
 .about-content{
     padding: 10px 20px;
+    margin-right: 50px;
 }
 
     

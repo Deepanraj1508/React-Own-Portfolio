@@ -42,3 +42,6 @@
   }
 
   
+  .react-slideshow-container+ul.indicators{
+    padding: 0%;
+  }

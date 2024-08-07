@@ -13,6 +13,13 @@
   justify-content: center;
 }
 
+.project-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .project-txt {
   display: flex;

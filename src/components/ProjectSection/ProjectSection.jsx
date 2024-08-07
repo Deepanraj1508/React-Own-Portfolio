@@ -18,13 +18,17 @@ const ProjectSection = () => {
       <div className="project-header">
         <h1>My <span>Projects</span></h1>
       </div>
-      <ImageSlideshow />
-      <div className="project-btn-main">
-        <button className='project-txt' onClick={handleExploreClick}>
-          Explore Project
-          <img className='project-btn-prev' src={up_arrow} alt="" />
-          <img className='project-btn-after' src={right_arrow} alt="" />
-        </button>
+      <div className="project-main-content">
+
+        <ImageSlideshow />
+
+        <div className="project-btn-main">
+          <button className='project-txt' onClick={handleExploreClick}>
+            Explore Project
+            <img className='project-btn-prev' src={up_arrow} alt="" />
+            <img className='project-btn-after' src={right_arrow} alt="" />
+          </button>
+        </div>
       </div>
     </Element>
   );

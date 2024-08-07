@@ -53,7 +53,7 @@ const ContactUs = () => {
                             <label htmlFor="name">Full Name</label>
                             <input
                                 required
-                                name="name"
+                                name="Name"
                                 id="name"
                                 type="text"
                                 placeholder="Enter your name"
@@ -63,7 +63,7 @@ const ContactUs = () => {
                             <label htmlFor="email">Email</label>
                             <input
                                 required
-                                name="email"
+                                name="Email"
                                 id="email"
                                 type="email"
                                 placeholder="Enter your email"
@@ -74,8 +74,8 @@ const ContactUs = () => {
                             <textarea
                                 required
                                 id="textarea"
-                                name="textarea"
-                                placeholder="Message"
+                                name="Message"
+                                placeholder="Enter your message"
                                 rows="10"
                                 cols="50"
                             ></textarea>

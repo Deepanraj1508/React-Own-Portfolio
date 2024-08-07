@@ -84,7 +84,7 @@ const Footer = () => {
             <li>Skills</li>
           </Link>
           <Link to="project" smooth={true} duration={500}>
-            <li>Project</li>
+            <li>Projects</li>
           </Link>
           <Link to="resume" smooth={true} duration={500}>
             <li>Resume</li>
