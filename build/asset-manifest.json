@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Own-Portfolio/static/css/main.dc104246.css",
-    "main.js": "/React-Own-Portfolio/static/js/main.a9ae5e9f.js",
+    "main.css": "/React-Own-Portfolio/static/css/main.8dcd8568.css",
+    "main.js": "/React-Own-Portfolio/static/js/main.4cf8f936.js",
     "static/js/488.96fb4840.chunk.js": "/React-Own-Portfolio/static/js/488.96fb4840.chunk.js",
     "static/media/ncg.png": "/React-Own-Portfolio/static/media/ncg.32e4b6341b4fb4649974.png",
     "static/media/res.png": "/React-Own-Portfolio/static/media/res.339ab8560450cc8c1e36.png",
@@ -38,12 +38,12 @@
     "static/media/swagger-.jpg": "/React-Own-Portfolio/static/media/swagger-.a8692d22078ba58a43a8.jpg",
     "static/media/linkedin.png": "/React-Own-Portfolio/static/media/linkedin.45394e1bbe628643df3d.png",
     "index.html": "/React-Own-Portfolio/index.html",
-    "main.dc104246.css.map": "/React-Own-Portfolio/static/css/main.dc104246.css.map",
-    "main.a9ae5e9f.js.map": "/React-Own-Portfolio/static/js/main.a9ae5e9f.js.map",
+    "main.8dcd8568.css.map": "/React-Own-Portfolio/static/css/main.8dcd8568.css.map",
+    "main.4cf8f936.js.map": "/React-Own-Portfolio/static/js/main.4cf8f936.js.map",
     "488.96fb4840.chunk.js.map": "/React-Own-Portfolio/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc104246.css",
-    "static/js/main.a9ae5e9f.js"
+    "static/css/main.8dcd8568.css",
+    "static/js/main.4cf8f936.js"
   ]
 }
