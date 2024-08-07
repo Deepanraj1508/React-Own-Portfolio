@@ -141,6 +141,7 @@
   .footer-navigation li, .footer-contact li {
     list-style: none;
     font-size: 15px;
+    cursor: pointer;
   }
   
   .footer-email {
